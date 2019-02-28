@@ -1,4 +1,4 @@
-package gr.proga.grchat.service;
+package gr.proga.grchat.repository;
 
 import gr.proga.grchat.dto.TransferData;
 
@@ -10,4 +10,5 @@ public interface DataRepository {
 
 	void addTransferData(TransferData<?> transferData);
 
+	void registerListener(DataRepositoryListener listener);
 }

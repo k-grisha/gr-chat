@@ -10,7 +10,7 @@ import lombok.AllArgsConstructor;
  */
 @AllArgsConstructor
 public class TransferData<T> {
-	/** id адресата */
+	/** uid адресата */
 	public final String recipientUid;
 	public final TransferDataType dataType;
 	public final T body;
